@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from './axiosConfig'; // Özelleştirilmiş axios yapılandırması
+import axios from '../axiosConfig'; // Özelleştirilmiş axios yapılandırması
 
 function Profile() {
   const [user, setUser] = useState({});
